@@ -1,0 +1,41 @@
+# Ambiente virtual
+venv/
+.env
+
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Arquivos de log
+*.log
+
+# Arquivos de testes ou cobertura
+.coverage
+htmlcov/
+.tox/
+.cache/
+pytest_cache/
+
+# Arquivos do VSCode
+.vscode/
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de exportação de dependências
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Arquivos gerados por notebooks Jupyter (caso use futuramente)
+.ipynb_checkpoints/
+
+# Relatórios, outputs ou arquivos temporários (se houver)
+*.tmp
+*.bak
+outputs/
