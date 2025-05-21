@@ -1,0 +1,41 @@
+/* Centraliza títulos */
+h1, h2, h3, h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Parágrafos informativos */
+p {
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+}
+
+/* Espaçamento entre os grupos de formulário */
+.card-group {
+  margin-bottom: 1rem;
+}
+
+/* Botões */
+button, .btn {
+  font-weight: bold;
+}
+
+/* Alertas */
+.alert {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Ajustes no container do formulário */
+.container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Layout responsivo para pequenos dispositivos */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
